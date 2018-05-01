@@ -1,0 +1,13 @@
+*.egg-info/
+*.iml
+*.pyc
+.cache/
+.eggs/
+.idea/
+.python-version
+build/
+dist/
+frozen_version.py
+plugins/
+docs/source/help
+docs/source/images
