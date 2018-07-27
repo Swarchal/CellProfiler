@@ -12,7 +12,7 @@ import sys
 import os.path
 import glob
 import cellprofiler.module as cpm
-from cellprofiler.modules.plugins import plugin_list
+#from cellprofiler.modules.plugins import plugin_list
 from cellprofiler.preferences import get_plugin_directory
 
 # python modules and their corresponding cellprofiler.module classes
