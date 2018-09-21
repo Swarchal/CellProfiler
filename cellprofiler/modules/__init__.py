@@ -12,7 +12,7 @@ import sys
 import os.path
 import glob
 import cellprofiler.module as cpm
-from cellprofiler.modules.plugins import plugin_list
+#from cellprofiler.modules.plugins import plugin_list
 from cellprofiler.preferences import get_plugin_directory
 
 # python modules and their corresponding cellprofiler.module classes
@@ -358,7 +358,7 @@ def fill_modules():
     for mod in builtin_modules:
         add_module('cellprofiler.modules.' + mod, True)
 
-    plugin_directory = get_plugin_directory()
+    plugin_directory = None
     if plugin_directory is not None:
         old_path = sys.path
         sys.path.insert(0, plugin_directory)
